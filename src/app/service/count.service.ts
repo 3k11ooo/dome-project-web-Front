@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class CountService {
-  endPoint: string = 'http://localhost:3000/api/test';
+  endPoint: string = 'https://dome-project-server.onrender.com/api/test';
 
   constructor(private http: HttpClient) { }
 
