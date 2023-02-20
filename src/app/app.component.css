@@ -1,0 +1,33 @@
+button{
+  color: white;
+  border-color: white;
+  width: 75%;
+  height: 200px;
+  font-size: 60px;
+  border-radius: 10%;
+
+}
+div{
+  padding-top: 10%;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+  box-shadow: 0 5px 0 #870010;
+}
+
+.blue{
+  background-color: blue;
+  box-shadow: 0 5px 0 rgb(0, 0, 129);
+}
+
+.green{
+  background-color: green;
+  box-shadow: 0 5px 0 rgb(0, 85, 0);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
